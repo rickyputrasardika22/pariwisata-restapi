@@ -59,10 +59,10 @@ router.get('/',async(req,res)=>{
 
 router.post('/',async (req,res)=>{
     const inputPost = new Post({
-        deskripsi: req.body.deskripsi,
+        content : req.body.content,
         nama_wisata : req.body.nama_wisata,
-        user_id: req.body.user_id,
-        foto : req.body.foto
+        user_id: req.body.user_id
+        
     })
 
     try{
@@ -76,9 +76,8 @@ router.post('/',async (req,res)=>{
 router.put('/',async(req,res)=>{
     const data = {
         id: req.body.id,
-        deskripsi : req.body.deskripsi,
+        content : req.body.content,
         nama_wisata : req.body.nama_wisata,
-        foto : req.body.foto,
         modified_date: Date.now()
     }
     try{

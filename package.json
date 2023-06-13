@@ -1,5 +1,5 @@
 {
-  "name": "futsalpedia-restapi",
+  "name": "pariwisata-restapi",
   "version": "1.0.0",
   "description": "rest api menggunakan express.js",
   "main": "app.js",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MMauladii/futsalpedia-restapi.git"
+    "url": "git+https://github.com/rickyputrasardika22/pariwisata-restapi.git"
   },
   "keywords": [
     "nodejs",
     "express",
     "mongodb"
   ],
-  "author": "mauladi",
+  "author": "ricky",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MMauladii/futsalpedia-restapi/issues"
+    "url": "https://github.com/rickyputrasardika22/pariwisata-restapi/issues"
   },
-  "homepage": "https://github.com/MMauladii/futsalpedia-restapi#readme",
+  "homepage": "https://github.com/rickyputrasardika22/pariwisata-restapi#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",

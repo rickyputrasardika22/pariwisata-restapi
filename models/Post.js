@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const postSchema = mongoose.Schema({
-    deskripsi: {
-        type: String,
+    content: {
+        type : String,
         required: true
     },
     nama_wisata: {
@@ -11,10 +11,6 @@ const postSchema = mongoose.Schema({
     user_id: {
         type: mongoose.Schema.Types.ObjectId,
         ref:'User',
-        required: true
-    },
-    foto: {
-        type: String,
         required: true
     },
     created_date: {

@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('this is rest api for our futsalpedia project')
+    res.send('this is rest api for our pariwisata web')
   })
   
   mongoose.connect(process.env.DB_CONNECTION,{
