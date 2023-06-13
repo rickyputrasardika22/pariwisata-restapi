@@ -1,0 +1,36 @@
+{
+  "name": "futsalpedia-restapi",
+  "version": "1.0.0",
+  "description": "rest api menggunakan express.js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMauladii/futsalpedia-restapi.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "mauladi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMauladii/futsalpedia-restapi/issues"
+  },
+  "homepage": "https://github.com/MMauladii/futsalpedia-restapi#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
